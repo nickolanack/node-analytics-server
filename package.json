@@ -1,0 +1,27 @@
+{
+  "name": "analytics-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickolanack/node-analytics-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickolanack/node-analytics-server/issues"
+  },
+  "homepage": "https://github.com/nickolanack/node-analytics-server#readme",
+  "dependencies": {
+    "push-node-socket-io-client": "git+https://github.com/nickolanack/push-node-socket-io-client.git#master"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.4"
+  }
+}
